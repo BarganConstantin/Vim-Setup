@@ -1,4 +1,5 @@
 # vim_setup
+![screenshot from vim](https://github.com/kostea123/vim_setup/blob/main/1.png)
 ## plugin setup
 ```
 set number
