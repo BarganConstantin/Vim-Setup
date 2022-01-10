@@ -1,6 +1,5 @@
 # vim_setup
 ## plugin setup
-### vimrc.local
 ```
 set number
 
@@ -23,7 +22,7 @@ let g:airline#extensions#tabline#enabled = 1
 let g:airline_theme='luna'
 ```
 
-### plugin install in ```$ cd ~/.vim/pack/vendor/start```
+## plugin install in ```$ cd ~/.vim/pack/vendor/start```
 
 - auto-pairs: 
 ```
