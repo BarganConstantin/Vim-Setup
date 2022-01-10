@@ -30,7 +30,7 @@ let g:airline_theme='luna'
 git clone https://github.com/jiangmiao/auto-pairs.git
 ```
 
- - vim-airline:
+- vim-airline:
 ```
 git clone https://github.com/vim-airline/vim-airline.git
 ```
