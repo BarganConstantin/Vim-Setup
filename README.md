@@ -62,5 +62,5 @@ git clone https://github.com/sickill/vim-monokai.git
 
 - indent-line:
 ```
-- git clone https://github.com/Yggdroot/indentLine.git
+git clone https://github.com/Yggdroot/indentLine.git
 ```
