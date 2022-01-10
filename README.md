@@ -7,32 +7,32 @@
 git clone https://github.com/jiangmiao/auto-pairs.git
 ```
 
-### vim-airline:
+- vim-airline:
 ```
 git clone https://github.com/vim-airline/vim-airline.git
 ```
 
-### vim-closetag: 
+- vim-closetag: 
 ```
 git clone https://github.com/alvan/vim-closetag.git
 ```
 
-### vim-polyglot:
+- vim-polyglot:
 ```
 git clone https://github.com/sheerun/vim-polyglot.git
 ```
 
-### nerdtree:    
+- nerdtree:    
 ```
 git clone https://github.com/preservim/nerdtree.git
 ```
 
-### vim-airline-themes:  
+- vim-airline-themes:  
 ```
 git clone https://github.com/vim-airline/vim-airline-themes.git
 ```
 
-### vim-monokai:
+- vim-monokai:
 ```
 git clone https://github.com/sickill/vim-monokai.git
 ```
