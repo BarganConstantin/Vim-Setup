@@ -23,7 +23,7 @@ let g:airline#extensions#tabline#enabled = 1
 let g:airline_theme='base16_greenscreen'
 ```
 
-## plugin install in ```$ cd ~/.vim/pack/vendor/start```
+## plugin install in ```cd ~/.vim/pack/vendor/start```
 
 - auto-pairs: 
 ```
