@@ -65,4 +65,14 @@ git clone https://github.com/sickill/vim-monokai.git
 git clone https://github.com/vim-scripts/AutoComplPop.git
 ```
 
+## tmux setup ```cd ~/.tmux.conf```
+```
+set-option -g prefix C-q
 
+set -g mouse on
+
+bind -n M-Left select-pane -L
+bind -n M-Right select-pane -R
+bind -n M-Up select-pane -U
+bind -n M-Down select-pane -D
+```
