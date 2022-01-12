@@ -60,7 +60,9 @@ git clone https://github.com/vim-airline/vim-airline-themes.git
 git clone https://github.com/sickill/vim-monokai.git
 ```
 
-- indent-line:
+- AutoComplPop:
 ```
-git clone https://github.com/Yggdroot/indentLine.git
+git clone https://github.com/vim-scripts/AutoComplPop.git
 ```
+
+
