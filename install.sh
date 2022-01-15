@@ -24,13 +24,13 @@ echo let g:airline_theme='base16_greenscreen' >> vimrc.local
 
 mv vimrc.local /etc/vim/
 
-mkdir -p ~/.vim/pack/vendor/start/ 
+mkdir -p ~/.vim/pack/vendor/start/plugin/
 
 mkdir plugin
 
 git clone https://github.com/jiangmiao/auto-pairs.git
 
-mv auto-pairs /.vim/pack/vendor/start
+mv auto-pairs /.vim/pack/vendor/start/plugin
 
 git clone https://github.com/vim-airline/vim-airline.git
 
