@@ -26,12 +26,12 @@ mv vimrc.local /etc/vim/
 
 mkdir -p ~/.vim/pack/vendor/start/ 
 
-git clone https://github.com/jiangmiao/auto-pairs.git ~/.vim/pack/vendor/start
-git clone https://github.com/vim-airline/vim-airline.git ~/.vim/pack/vendor/start
-git clone https://github.com/alvan/vim-closetag.git ~/.vim/pack/vendor/start
-git clone https://github.com/sheerun/vim-polyglot.git ~/.vim/pack/vendor/start
-git clone https://github.com/preservim/nerdtree.git ~/.vim/pack/vendor/start
-git clone https://github.com/vim-airline/vim-airline-themes.git ~/.vim/pack/vendor/start
-git clone https://github.com/sickill/vim-monokai.git ~/.vim/pack/vendor/start
-git clone https://github.com/vim-scripts/AutoComplPop.git ~/.vim/pack/vendor/start
+git clone https://github.com/jiangmiao/auto-pairs.git /.vim/pack/vendor/start
+git clone https://github.com/vim-airline/vim-airline.git /.vim/pack/vendor/start
+git clone https://github.com/alvan/vim-closetag.git /.vim/pack/vendor/start
+git clone https://github.com/sheerun/vim-polyglot.git /.vim/pack/vendor/start
+git clone https://github.com/preservim/nerdtree.git /.vim/pack/vendor/start
+git clone https://github.com/vim-airline/vim-airline-themes.git /.vim/pack/vendor/start
+git clone https://github.com/sickill/vim-monokai.git /.vim/pack/vendor/start
+git clone https://github.com/vim-scripts/AutoComplPop.git /.vim/pack/vendor/start
 
