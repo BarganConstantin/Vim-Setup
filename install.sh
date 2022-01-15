@@ -60,3 +60,5 @@ git clone https://github.com/vim-scripts/AutoComplPop.git
 
 mv AutoComplPop plugin
 
+mv plugin /.vim/pack/vendor/start
+
