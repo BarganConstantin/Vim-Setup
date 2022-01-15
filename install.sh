@@ -24,7 +24,7 @@ echo let g:airline_theme='base16_greenscreen' >> vimrc.local
 
 mv vimrc.local /etc/vim/
 
-mkdir pack
+mkdir /pack/vendor/start/plugin/
 
 git clone https://github.com/jiangmiao/auto-pairs.git
 
