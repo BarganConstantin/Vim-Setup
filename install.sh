@@ -28,35 +28,35 @@ mkdir -p ~/.vim/pack/vendor/start/
 
 mkdir plugin
 
-git clone https://github.com/jiangmiao/auto-pairs.git /.vim/pack/vendor/start
+git clone https://github.com/jiangmiao/auto-pairs.git
 
 mv auto-pairs plugin
 
-git clone https://github.com/vim-airline/vim-airline.git /.vim/pack/vendor/start
+git clone https://github.com/vim-airline/vim-airline.git
 
 mv vim-airline plugin
 
-git clone https://github.com/alvan/vim-closetag.git /.vim/pack/vendor/start
+git clone https://github.com/alvan/vim-closetag.git
 
 mv vim-closetag plugin
 
-git clone https://github.com/sheerun/vim-polyglot.git /.vim/pack/vendor/start
+git clone https://github.com/sheerun/vim-polyglot.git
 
 mv vim-polyglot plugin
 
-git clone https://github.com/preservim/nerdtree.git /.vim/pack/vendor/start
+git clone https://github.com/preservim/nerdtree.git
 
 mv nerdtree plugin
 
-git clone https://github.com/vim-airline/vim-airline-themes.git /.vim/pack/vendor/start
+git clone https://github.com/vim-airline/vim-airline-themes.git
 
 mv vim-airline-themes plugin
 
-git clone https://github.com/sickill/vim-monokai.git /.vim/pack/vendor/start
+git clone https://github.com/sickill/vim-monokai.git
 
 mv vim-monokai plugin
 
-git clone https://github.com/vim-scripts/AutoComplPop.git /.vim/pack/vendor/start
+git clone https://github.com/vim-scripts/AutoComplPop.git
 
 mv AutoComplPop plugin
 
