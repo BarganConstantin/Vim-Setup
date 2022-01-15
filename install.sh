@@ -24,41 +24,39 @@ echo let g:airline_theme='base16_greenscreen' >> vimrc.local
 
 mv vimrc.local /etc/vim/
 
-mkdir -p ~/.vim/pack/vendor/start/plugin/
-
-mkdir plugin
+mkdir pack
 
 git clone https://github.com/jiangmiao/auto-pairs.git
 
-mv auto-pairs plugin
+mv auto-pairs /pack/vendor/start/plugin/
 
 # git clone https://github.com/vim-airline/vim-airline.git
 
-# mv vim-airline plugin
+# mv vim-airline /pack/vendor/start/plugin/
 
 # git clone https://github.com/alvan/vim-closetag.git
 
-# mv vim-closetag plugin
+# mv vim-closetag /pack/vendor/start/plugin/
 
 # git clone https://github.com/sheerun/vim-polyglot.git
 
-# mv vim-polyglot plugin
+# mv vim-polyglot /pack/vendor/start/plugin/
 
 # git clone https://github.com/preservim/nerdtree.git
 
-# mv nerdtree plugin
+# mv nerdtree /pack/vendor/start/plugin/
 
 # git clone https://github.com/vim-airline/vim-airline-themes.git
 
-# mv vim-airline-themes plugin
+# mv vim-airline-themes /pack/vendor/start/plugin/
 
 # git clone https://github.com/sickill/vim-monokai.git
 
-# mv vim-monokai plugin
+# mv vim-monokai /pack/vendor/start/plugin/
 
 # git clone https://github.com/vim-scripts/AutoComplPop.git
 
-# mv AutoComplPop plugin
+# mv AutoComplPop /pack/vendor/start/plugin/
 
-mv plugin /.vim/
+mv pack /.vim/
 
