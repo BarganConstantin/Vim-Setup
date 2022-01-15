@@ -30,7 +30,7 @@ mkdir plugin
 
 git clone https://github.com/jiangmiao/auto-pairs.git
 
-mv auto-pairs plugin
+mv auto-pairs /.vim/pack/vendor/start
 
 git clone https://github.com/vim-airline/vim-airline.git
 
