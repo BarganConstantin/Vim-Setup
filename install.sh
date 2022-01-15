@@ -28,9 +28,9 @@ mkdir -p ~/.vim/pack/vendor/start/plugin/
 
 mkdir plugin
 
-# git clone https://github.com/jiangmiao/auto-pairs.git
+git clone https://github.com/jiangmiao/auto-pairs.git
 
-# mv auto-pairs plugin
+mv auto-pairs plugin
 
 # git clone https://github.com/vim-airline/vim-airline.git
 
