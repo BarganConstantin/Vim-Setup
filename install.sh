@@ -28,37 +28,37 @@ mkdir -p ~/.vim/pack/vendor/start/plugin/
 
 mkdir plugin
 
-git clone https://github.com/jiangmiao/auto-pairs.git
+# git clone https://github.com/jiangmiao/auto-pairs.git
 
-mv auto-pairs plugin
+# mv auto-pairs plugin
 
-git clone https://github.com/vim-airline/vim-airline.git
+# git clone https://github.com/vim-airline/vim-airline.git
 
-mv vim-airline plugin
+# mv vim-airline plugin
 
-git clone https://github.com/alvan/vim-closetag.git
+# git clone https://github.com/alvan/vim-closetag.git
 
-mv vim-closetag plugin
+# mv vim-closetag plugin
 
-git clone https://github.com/sheerun/vim-polyglot.git
+# git clone https://github.com/sheerun/vim-polyglot.git
 
-mv vim-polyglot plugin
+# mv vim-polyglot plugin
 
-git clone https://github.com/preservim/nerdtree.git
+# git clone https://github.com/preservim/nerdtree.git
 
-mv nerdtree plugin
+# mv nerdtree plugin
 
-git clone https://github.com/vim-airline/vim-airline-themes.git
+# git clone https://github.com/vim-airline/vim-airline-themes.git
 
-mv vim-airline-themes plugin
+# mv vim-airline-themes plugin
 
-git clone https://github.com/sickill/vim-monokai.git
+# git clone https://github.com/sickill/vim-monokai.git
 
-mv vim-monokai plugin
+# mv vim-monokai plugin
 
-git clone https://github.com/vim-scripts/AutoComplPop.git
+# git clone https://github.com/vim-scripts/AutoComplPop.git
 
-mv AutoComplPop plugin
+# mv AutoComplPop plugin
 
 mv plugin /.vim/
 
