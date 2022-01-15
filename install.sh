@@ -28,7 +28,7 @@ mkdir -p /pack/vendor/start/plugin
 
 git clone https://github.com/jiangmiao/auto-pairs.git
 
-mv auto-pairs /pack/vendor/start/plugin
+mv -f auto-pairs /pack/vendor/start/plugin
 
 # git clone https://github.com/vim-airline/vim-airline.git
 
