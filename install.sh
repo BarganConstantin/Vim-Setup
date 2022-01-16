@@ -20,43 +20,44 @@ echo filetype plugin indent on >> vimrc.local
 echo set autoindent >> vimrc.local
 echo set laststatus=2 >> vimrc.local
 echo let g:airline#extensions#tabline#enabled = 1 >> vimrc.local
-echo let g:airline_theme='base16_greenscreen' >> vimrc.local
+echo let g:airline_theme="'base16_greenscreen'" >> vimrc.local
 
 mv vimrc.local /etc/vim/
 
-mkdir -p /pack/vendor/start/plugin
+mkdir -p ~/.vim/pack/vendor/start/
+mkdir plugin
 
 git clone https://github.com/jiangmiao/auto-pairs.git
+cp -r auto-pairs plugin
+rm -r auto-pairs
 
-mv -f auto-pairs /pack/vendor/start/plugin
+git clone https://github.com/vim-airline/vim-airline.git
+cp -r vim-airline plugin
+rm -r vim-airline
 
-# git clone https://github.com/vim-airline/vim-airline.git
+git clone https://github.com/alvan/vim-closetag.git
+cp -r vim-closetag plugin
+rm -r vim-closetag
 
-# mv vim-airline /pack/vendor/start/plugin/
+git clone https://github.com/sheerun/vim-polyglot.git
+cp -r vim-polyglot plugin
+rm -r vim-polyglot
 
-# git clone https://github.com/alvan/vim-closetag.git
+git clone https://github.com/preservim/nerdtree.git
+cp -r nerdtree plugin
+rm -r nerdtree
 
-# mv vim-closetag /pack/vendor/start/plugin/
+git clone https://github.com/vim-airline/vim-airline-themes.git
+cp -r vim-airline-themes plugin
+rm -r vim-airline-themes
 
-# git clone https://github.com/sheerun/vim-polyglot.git
+git clone https://github.com/sickill/vim-monokai.git
+cp -r vim-monokai plugin
+rm -r vim-monokai
 
-# mv vim-polyglot /pack/vendor/start/plugin/
+git clone https://github.com/vim-scripts/AutoComplPop.git
+cp -r AutoComplPop plugin
+rm -r AutoComplPop
 
-# git clone https://github.com/preservim/nerdtree.git
-
-# mv nerdtree /pack/vendor/start/plugin/
-
-# git clone https://github.com/vim-airline/vim-airline-themes.git
-
-# mv vim-airline-themes /pack/vendor/start/plugin/
-
-# git clone https://github.com/sickill/vim-monokai.git
-
-# mv vim-monokai /pack/vendor/start/plugin/
-
-# git clone https://github.com/vim-scripts/AutoComplPop.git
-
-# mv AutoComplPop /pack/vendor/start/plugin/
-
-mv pack /.vim
-
+cp -r plugin/* ~/.vim/pack/vendor/start/
+rm -r plugin
