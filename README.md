@@ -1,4 +1,4 @@
-# vim_setup
+# Vim-Setup
 ![screenshot from vim](https://github.com/kostea123/vim_setup/blob/main/1.png)
 ## plugin setup ```cd /etc/vim/``` in ```vim.local```
 ```
