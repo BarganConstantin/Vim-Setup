@@ -10,17 +10,17 @@ fi
 
 touch vimrc.local
 
-echo set number >> vimrc.local
-echo colo monokai >> vimrc.local
-echo set tabstop=4 >> vimrc.local
-echo set shiftwidth=4 >> vimrc.local
-echo set softtabstop=4 >> vimrc.local
-echo set expandtab >> vimrc.local
-echo filetype plugin indent on >> vimrc.local
-echo set autoindent >> vimrc.local
-echo set laststatus=2 >> vimrc.local
-echo let g:airline#extensions#tabline#enabled = 1 >> vimrc.local
-echo let g:airline_theme="'base16_greenscreen'" >> vimrc.local
+echo set number >> vimrc
+echo colo monokai >> vimrc
+echo set tabstop=4 >> vimrc
+echo set shiftwidth=4 >> vimrc
+echo set softtabstop=4 >> vimrc
+echo set expandtab >> vimrc
+echo filetype plugin indent on >> vimrc
+echo set autoindent >> vimrc
+echo set laststatus=2 >> vimrc
+echo let g:airline#extensions#tabline#enabled = 1 >> vimrc
+echo let g:airline_theme="'base16_greenscreen'" >> vimrc
 
 mv vimrc.local /etc/vim/
 
