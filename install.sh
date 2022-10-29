@@ -1,4 +1,8 @@
 # check if directory exists
+echo   "        ▌ ▌▗      ▞▀▖   ▐
+        ▚▗▘▄ ▛▚▀▖ ▚▄ ▞▀▖▜▀ ▌ ▌▛▀▖
+        ▝▞ ▐ ▌▐ ▌ ▖ ▌▛▀ ▐ ▖▌ ▌▙▄▘
+         ▘ ▀▘▘▝ ▘ ▝▀ ▝▀▘ ▀ ▝▀▘▌"
 if [ -d /etc/vim/ ]; then
   echo "directory /etc/vim/ exist"
  else
@@ -61,3 +65,15 @@ rm -r AutoComplPop
 
 cp -r plugin/* ~/.vim/pack/vendor/start/
 rm -r plugin
+
+echo -e "\t -------------------------
+\t/     Congratulation!     \\
+\t|                         |
+\t\\ Your Vim is wonderfull! /
+\t -------------------------
+\t        \   ^__^
+\t         \  (oo)\_______
+\t            (__)\       )\/\\
+\t                ||----w |
+\t                ||     ||
+\t"
