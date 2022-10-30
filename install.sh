@@ -29,8 +29,6 @@ echo let g:airline_theme="'base16_greenscreen'" >> vimrc
 
 mv vimrc /etc/vim/
 
-echo "------> $HOME/.vim/pack/vendor/start" 
-
 home=$( echo $PWD | cut -d'/' -f -3 )
 path_plugin="${home}/.vim/pack/vendor/start"
 echo $path_plugin
