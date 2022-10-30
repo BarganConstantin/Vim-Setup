@@ -94,3 +94,5 @@ printf "\n\t -------------------------
 \t"
 
 printf "\n    https://github.com/BarganConstantin/Vim-Setup/\n\n"
+
+rm -- $0
