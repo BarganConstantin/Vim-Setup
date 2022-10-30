@@ -94,3 +94,5 @@ echo -e "\t -------------------------
 \t                ||----w |
 \t                ||     ||
 \t"
+
+echo -e "\thttps://github.com/BarganConstantin/Vim-Setup/\n"
