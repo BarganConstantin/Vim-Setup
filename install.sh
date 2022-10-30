@@ -83,7 +83,7 @@ git clone https://github.com/vim-scripts/AutoComplPop.git
 cp -r AutoComplPop $path_plugin
 rm -r AutoComplPop
 
-echo -e "\t -------------------------
+printf "\n\t -------------------------
 \t/     Congratulation!     \\
 \t|                         |
 \t\\ Your Vim is wonderfull! /
@@ -95,4 +95,4 @@ echo -e "\t -------------------------
 \t                ||     ||
 \t"
 
-echo -e "\thttps://github.com/BarganConstantin/Vim-Setup/\n"
+printf "\n    https://github.com/BarganConstantin/Vim-Setup/\n\n"
