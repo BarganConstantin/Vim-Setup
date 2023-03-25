@@ -1,9 +1,7 @@
-# Vim-Setup 
-![screenshot from vim](https://github.com/kostea123/vim_setup/blob/main/1.png)
-
 # 🛠️ Vim-Setup
 
 This repository contains my setup for the Vim text editor. It includes my `vimrc` configuration file and a list of plugins that I use.
+![screenshot from vim](https://github.com/kostea123/vim_setup/blob/main/1.png)
 
 ## 📝 Plugin Setup
 
